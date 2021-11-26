@@ -1,0 +1,2 @@
+# JKangESExtensions.MassTransit
+ Extends the JKang.EventSourcing libraries with asynchronous messaging provided by MassTransit library. This allows integration events to be published when (and only when) a domain event is successfully persisted to the event stream. This library is not tightly coupled to any particular ORM or database provider. You can use the base classes and interfaces here to support any.
